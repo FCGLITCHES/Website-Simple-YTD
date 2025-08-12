@@ -61,26 +61,32 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-dark-800 dark:border-gray-800 mt-12 pt-8 transition-colors duration-200">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-6 text-sm text-dark-400 dark:text-gray-400 transition-colors duration-200">
-              <div className="flex items-center space-x-2">
-                <Shield className="h-4 w-4" />
+          <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
+            {/* Trust Indicators */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 text-sm text-dark-400 dark:text-gray-400 transition-colors duration-200">
+              <div className="flex items-center justify-center sm:justify-start space-x-2">
+                <Shield className="h-4 w-4 text-green-400" />
                 <span>Secure & Private</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="h-4 w-4" />
+              <div className="flex items-center justify-center sm:justify-start space-x-2">
+                <Mail className="h-4 w-4 text-blue-400" />
                 <span>Email Support</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <Heart className="h-4 w-4 text-red-500" />
+              <div className="flex items-center justify-center sm:justify-start space-x-2">
+                <Heart className="h-4 w-4 text-red-400" />
                 <span>AI-Assisted Development</span>
               </div>
             </div>
             
-            <div className="flex items-center space-x-2 text-sm text-dark-400 dark:text-gray-400 transition-colors duration-200">
-              <span>© 2025 Simply YTD. Made with</span>
-              <Heart className="h-4 w-4 text-red-500" />
-              <span>as a passion project</span>
+            {/* Copyright */}
+            <div className="text-center lg:text-right">
+              <div className="flex items-center justify-center lg:justify-end space-x-2 text-sm text-dark-400 dark:text-gray-400 transition-colors duration-200">
+                <span>© 2025 Simply YTD</span>
+                <span className="hidden sm:inline">•</span>
+                <span className="hidden sm:inline">Made with</span>
+                <Heart className="h-4 w-4 text-red-400" />
+                <span className="hidden sm:inline">as a passion project</span>
+              </div>
             </div>
           </div>
         </div>
