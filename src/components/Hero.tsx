@@ -67,20 +67,20 @@ const Hero = () => {
                  </p>
                </div>
                
-               <div className="space-y-4">
-                 <div className="flex items-center justify-between">
-                   <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Quality</span>
-                   <span className="text-sm font-semibold text-primary-500">4K Ultra HD</span>
-                 </div>
-                 <div className="flex items-center justify-between">
-                   <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Format</span>
-                   <span className="text-sm font-semibold text-charcoal-900 dark:text-white transition-colors duration-200">MP4 (more coming soon)</span>
-                 </div>
-                 <div className="flex items-center justify-between">
-                   <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Speed</span>
-                   <span className="text-sm font-semibold text-green-600">Faster than 4KDownloader</span>
-                 </div>
-               </div>
+                               <div className="space-y-4">
+                                     <div className="flex items-center justify-between">
+                     <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Quality</span>
+                     <span className="text-sm font-semibold text-primary-500">360p to 4K Ultra HD</span>
+                   </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Format</span>
+                    <span className="text-sm font-semibold text-charcoal-900 dark:text-white transition-colors duration-200">MP4, MKV, MOV, MP3, OPUS, AAC + more</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-dark-500 dark:text-gray-400 transition-colors duration-200">Speed</span>
+                    <span className="text-sm font-semibold text-green-600">Optimized for fast downloads</span>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
