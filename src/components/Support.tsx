@@ -11,8 +11,8 @@ const Support = () => {
   const handleDonation = () => {
     const amount = isCustom ? parseFloat(customAmount) : selectedAmount;
     if (amount && amount > 0) {
-      // In a real implementation, this would integrate with Stripe
-      window.open(`https://donate.stripe.com/test_example?amount=${amount * 100}`, '_blank');
+      // Redirect to Stripe donation page
+      window.open(`https://donate.stripe.com/6oU00i73R6eh2yc0oU5AQ00`, '_blank');
     }
   };
 
@@ -71,7 +71,7 @@ const Support = () => {
                         : 'border-dark-200 dark:border-gray-600 hover:border-green-300 dark:hover:border-green-500 text-charcoal-700 dark:text-gray-300'
                     }`}
                   >
-                    ${amount}
+                    £{amount}
                   </button>
                 ))}
               </div>
@@ -90,7 +90,7 @@ const Support = () => {
                   min="1"
                   step="0.01"
                 />
-                <span className="text-dark-500 dark:text-gray-400 font-medium transition-colors duration-200">USD</span>
+                <span className="text-dark-500 dark:text-gray-400 font-medium transition-colors duration-200">GBP</span>
               </div>
             </div>
             
@@ -100,7 +100,7 @@ const Support = () => {
             >
               <CreditCard className="h-5 w-5" />
               <span>
-                Donate ${isCustom ? (customAmount || '0') : selectedAmount} via Stripe
+                Donate £{isCustom ? (customAmount || '0') : selectedAmount} via Stripe
               </span>
             </button>
             
