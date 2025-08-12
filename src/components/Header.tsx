@@ -42,7 +42,7 @@ const Header = () => {
             </button>
             
             <a 
-              href="https://github.com/FCGLITCHES/Website-Simple-YTD/releases/download/v1.0.0/SimpleYTDownloaderSetup.exe"
+              href="@https://github.com/FCGLITCHES/simple-yt-downloader/releases/download/v1.0.2/SimpleYTDownloader.zip"
               className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold flex items-center space-x-2 transition-all duration-200 transform hover:scale-105"
             >
               <Download className="h-4 w-4" />
