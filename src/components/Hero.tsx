@@ -6,7 +6,6 @@ const Hero = () => {
     <section className="bg-gradient-to-br from-navy-50 via-white to-primary-50 py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left side text */}
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-medium">
@@ -48,10 +47,24 @@ const Hero = () => {
             </div>
           </div>
           
-          {/* Right side image */}
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8">
-              <div className="space-y-4 mb-6">
+              <div className="aspect-video bg-gradient-to-br from-navy-100 to-primary-200 rounded-xl mb-6 relative overflow-hidden">
+                <video 
+                  className="w-full h-full object-cover rounded-xl" 
+                  autoPlay 
+                  muted 
+                  loop
+                  playsInline
+                >
+                  <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+                  <div className="bg-white/90 backdrop-blur-sm rounded-full p-6 absolute inset-0 flex items-center justify-center">
+                    <Download className="h-12 w-12 text-primary-500" />
+                  </div>
+                </video>
+              </div>
+              
+              <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-dark-500">Quality</span>
                   <span className="text-sm font-semibold text-primary-500">4K Ultra HD</span>
@@ -64,13 +77,6 @@ const Hero = () => {
                   <span className="text-sm text-dark-500">Speed</span>
                   <span className="text-sm font-semibold text-green-600">Faster than 4KDownloader</span>
                 </div>
-              </div>
-              <div className="w-full h-auto rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src="/WhatsApp Image 2025-08-10 at 03.00.41_5563710c copy.jpg"
-                  alt="VidGet Application Interface"
-                  className="w-full h-auto"
-                />
               </div>
             </div>
           </div>
