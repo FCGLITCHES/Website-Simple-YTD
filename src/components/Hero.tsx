@@ -51,14 +51,7 @@ const Hero = () => {
           {/* Right side image */}
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8">
-              <div className="w-full h-auto rounded-lg shadow-lg overflow-hidden">
-                <img
-                  src="/WhatsApp Image 2025-08-10 at 03.00.41_5563710c.jpg"
-                  alt="Preview"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="space-y-4 mt-4">
+              <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-dark-500">Quality</span>
                   <span className="text-sm font-semibold text-primary-500">4K Ultra HD</span>
@@ -71,6 +64,13 @@ const Hero = () => {
                   <span className="text-sm text-dark-500">Speed</span>
                   <span className="text-sm font-semibold text-green-600">Faster than 4KDownloader</span>
                 </div>
+              </div>
+              <div className="w-full h-auto rounded-lg shadow-lg overflow-hidden">
+                <img
+                  src="/WhatsApp Image 2025-08-10 at 03.00.41_5563710c copy.jpg"
+                  alt="VidGet Application Interface"
+                  className="w-full h-auto"
+                />
               </div>
             </div>
           </div>
