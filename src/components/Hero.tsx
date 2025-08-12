@@ -55,10 +55,10 @@ const Hero = () => {
                              <div className="mb-6">
                  <ImageSlideshow 
                    images={[
-                     '/SimpleYTDownloaderSetup_MlEf51xnqF.png',
-                     '/Video_Downloader_Gemini_b6yDrpakvN.png',
-                     '/electron_j8zDOZJ7Lz.png',
-                     '/WhatsApp Image 2025-08-10 at 03.00.41_5563710c copy.jpg'
+                     '/Website-Simple-YTD/SimpleYTDownloaderSetup_MlEf51xnqF.png',
+                     '/Website-Simple-YTD/Video_Downloader_Gemini_b6yDrpakvN.png',
+                     '/Website-Simple-YTD/electron_j8zDOZJ7Lz.png',
+                     '/Website-Simple-YTD/WhatsApp Image 2025-08-10 at 03.00.41_5563710c copy.jpg'
                    ]}
                    autoPlayInterval={4000}
                  />

@@ -8,11 +8,15 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="bg-primary-500 p-2 rounded-lg">
-                <Download className="h-6 w-6 text-white" />
+              <div className="w-10 h-10 rounded-lg overflow-hidden">
+                <img 
+                  src="/Website-Simple-YTD/Logo 1.png" 
+                  alt="Simply YTD Logo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
-                <h3 className="text-xl font-bold">VidGet</h3>
+                <h3 className="text-xl font-bold">Simply YTD</h3>
                 <p className="text-xs text-dark-400 dark:text-gray-400 transition-colors duration-200">Free Video Downloader</p>
               </div>
             </div>
@@ -74,7 +78,7 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-2 text-sm text-dark-400 dark:text-gray-400 transition-colors duration-200">
-              <span>© 2025 VidGet. Made with</span>
+              <span>© 2025 Simply YTD. Made with</span>
               <Heart className="h-4 w-4 text-red-500" />
               <span>as a passion project</span>
             </div>

@@ -11,7 +11,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
               <img 
-                src="/Logo 1.png" 
+                src="/Website-Simple-YTD/Logo 1.png" 
                 alt="Simply YTD Logo" 
                 className="w-full h-full object-cover"
               />
