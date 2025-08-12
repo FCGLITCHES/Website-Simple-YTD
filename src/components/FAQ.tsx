@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { useState } from 'react';
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -40,37 +40,37 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-white">
+    <section id="faq" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900">
+          <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900 dark:text-white transition-colors duration-200">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-dark-600">
+          <p className="text-xl text-dark-600 dark:text-gray-300 transition-colors duration-200">
             Everything you need to know about VidGet
           </p>
         </div>
         
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-dark-50 rounded-xl overflow-hidden border border-dark-200">
+            <div key={index} className="bg-dark-50 dark:bg-gray-800 rounded-xl overflow-hidden border border-dark-200 dark:border-gray-700 transition-colors duration-200">
               <button
-                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-dark-100 transition-colors duration-200"
+                className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-dark-100 dark:hover:bg-gray-700 transition-colors duration-200"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
-                <span className="text-lg font-semibold text-charcoal-900">
+                <span className="text-lg font-semibold text-charcoal-900 dark:text-white transition-colors duration-200">
                   {faq.question}
                 </span>
                 {openIndex === index ? (
                   <ChevronUp className="h-5 w-5 text-primary-500" />
                 ) : (
-                  <ChevronDown className="h-5 w-5 text-dark-400" />
+                  <ChevronDown className="h-5 w-5 text-dark-400 dark:text-gray-400" />
                 )}
               </button>
               
               {openIndex === index && (
                 <div className="px-6 pb-4">
-                  <p className="text-dark-600 leading-relaxed">
+                  <p className="text-dark-600 dark:text-gray-300 leading-relaxed transition-colors duration-200">
                     {faq.answer}
                   </p>
                 </div>

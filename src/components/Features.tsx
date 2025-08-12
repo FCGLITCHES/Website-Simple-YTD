@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   Download, 
   Monitor, 
@@ -48,29 +47,29 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 bg-white">
+    <section id="features" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900">
+          <h2 className="text-4xl lg:text-5xl font-bold text-charcoal-900 dark:text-white transition-colors duration-200">
             Simple Yet Powerful Features
           </h2>
-          <p className="text-xl text-dark-600 max-w-3xl mx-auto">
+          <p className="text-xl text-dark-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-200">
             Essential features for downloading videos with the best quality and performance
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="group bg-dark-50 hover:bg-white rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:shadow-primary-100 border border-transparent hover:border-primary-200">
+            <div key={index} className="group bg-dark-50 dark:bg-gray-800 hover:bg-white dark:hover:bg-gray-700 rounded-2xl p-6 transition-all duration-300 hover:shadow-xl hover:shadow-primary-100 dark:hover:shadow-primary-900 border border-transparent hover:border-primary-200 dark:hover:border-primary-700">
               <div className={`${feature.color} w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}>
                 <feature.icon className="h-6 w-6" />
               </div>
               
-              <h3 className="text-xl font-semibold text-charcoal-900 mb-3">
+              <h3 className="text-xl font-semibold text-charcoal-900 dark:text-white mb-3 transition-colors duration-200">
                 {feature.title}
               </h3>
               
-              <p className="text-dark-600 leading-relaxed">
+              <p className="text-dark-600 dark:text-gray-300 leading-relaxed transition-colors duration-200">
                 {feature.description}
               </p>
             </div>
@@ -85,10 +84,10 @@ const Features = () => {
         </div>
         
         {/* About Section */}
-        <div className="mt-20 bg-dark-50 rounded-2xl p-8">
+        <div className="mt-20 bg-dark-50 dark:bg-gray-800 rounded-2xl p-8 transition-colors duration-200">
           <div className="text-center space-y-4">
-            <h3 className="text-2xl font-bold text-charcoal-900">About This Project</h3>
-            <p className="text-lg text-dark-600 max-w-3xl mx-auto leading-relaxed">
+            <h3 className="text-2xl font-bold text-charcoal-900 dark:text-white transition-colors duration-200">About This Project</h3>
+            <p className="text-lg text-dark-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed transition-colors duration-200">
               VidGet is my passion project demonstrating the power of AI-assisted development. As a developer who fully 
               understands how AI works and its integration in coding, I've created this free video downloader to showcase 
               what's possible when human creativity meets AI capabilities. This represents the future of software development - 
