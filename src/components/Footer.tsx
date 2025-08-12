@@ -27,7 +27,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Product</h4>
             <ul className="space-y-2 text-dark-400 dark:text-gray-400 transition-colors duration-200">
               <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Download</a></li>
+              <li><a href="https://github.com/FCGLITCHES/Website-Simple-YTD/releases/download/v1.0.0/SimpleYTDownloaderSetup.exe" className="hover:text-white transition-colors">Download</a></li>
               <li><a href="#" className="hover:text-white transition-colors">System Requirements</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Changelog</a></li>
             </ul>

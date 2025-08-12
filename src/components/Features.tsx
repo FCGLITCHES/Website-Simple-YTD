@@ -77,10 +77,13 @@ const Features = () => {
         </div>
         
         <div className="text-center mt-12">
-          <button className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold flex items-center justify-center space-x-3 mx-auto transition-all duration-200 transform hover:scale-105">
+          <a 
+            href="https://github.com/FCGLITCHES/Website-Simple-YTD/releases/download/v1.0.0/SimpleYTDownloaderSetup.exe"
+            className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold flex items-center justify-center space-x-3 mx-auto transition-all duration-200 transform hover:scale-105"
+          >
             <Download className="h-5 w-5" />
             <span>Download VidGet Now</span>
-          </button>
+          </a>
         </div>
         
         {/* About Section */}

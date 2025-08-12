@@ -41,10 +41,13 @@ const Header = () => {
               )}
             </button>
             
-            <button className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold flex items-center space-x-2 transition-all duration-200 transform hover:scale-105">
+            <a 
+              href="https://github.com/FCGLITCHES/Website-Simple-YTD/releases/download/v1.0.0/SimpleYTDownloaderSetup.exe"
+              className="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold flex items-center space-x-2 transition-all duration-200 transform hover:scale-105"
+            >
               <Download className="h-4 w-4" />
               <span>Download</span>
-            </button>
+            </a>
           </nav>
           
           {/* Mobile menu button */}
@@ -62,10 +65,13 @@ const Header = () => {
               )}
             </button>
             
-            <button className="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-lg font-semibold flex items-center space-x-2 transition-all duration-200">
+            <a 
+              href="https://github.com/FCGLITCHES/Website-Simple-YTD/releases/download/v1.0.0/SimpleYTDownloaderSetup.exe"
+              className="bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-lg font-semibold flex items-center space-x-2 transition-all duration-200"
+            >
               <Download className="h-4 w-4" />
               <span>Download</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
